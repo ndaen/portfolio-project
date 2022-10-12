@@ -1,0 +1,11 @@
+body, html{
+    height: 100%;
+}
+.body{
+    background-color: beige;
+}
+.sidebar{
+    height: 100%;
+    width: 150px;
+    background-color: darkblue;
+}
