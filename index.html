@@ -2,12 +2,64 @@
     <head>
         <meta charset="UTF-8">
         <title>Portfolio - DAEN</title>
+        <link rel="stylesheet" href="style.css">
     </head>
+
     <body class="body">
-        <div class="sidebar">
-            
-        </div>
+    <div id="mySidenav" class="sidebar">
+        <a id="closeBtn" href="#" class="close">×</a>
+        <ul>
+            <li><a href="#">Moi</a></li>
+            <li><a href="#">Mes stages</a></li>
+            <li><a href="#">Projets académiques</a></li>
+            <li><a href="#">Contact</a></l  i>
+        </ul>
+    </div>
+    <a href="#" id="openBtn" class="burger-box">
+      <span class="burger-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+    </a>
 
     </body>
-
 </html>
+<script>
+    var sidenav = document.getElementById("mySidenav");
+    var openBtn = document.getElementById("openBtn");
+    var closeBtn = document.getElementById("closeBtn");
+
+    openBtn.onclick = openNav;
+    closeBtn.onclick = closeNav;
+
+    sidenav.classList.add("active")
+
+    /* Set the width of the side navigation to 250px */
+    function openNav() {
+        sidenav.classList.add("active");
+    }
+
+    /* Set the width of the side navigation to 0 */
+    function closeNav() {
+        sidenav.classList.remove("active");
+    }
+</script>
+
+<!--
+
+    1 IDENTIFICATION
+    Dénomination = Sampleo - Webedia Groupe
+
+    Forme juridique = SAS
+    Le site www.sampleo.com est édité par la Société par Actions Simplifiées (SAS)
+    SAMPLEO (société du groupe Webedia) au capital social de 55 000€,
+    et dont le siège social est situé au 2 rue Paul Vaillant Couturier 92300 Levallois-Perret,
+    immatriculée au registre de commerce et des sociétés de Nanterre sous le numéro 530 233 584.
+
+    Taille
+    moyenne / grande entreprise
+
+    Effectif
+
+-->
