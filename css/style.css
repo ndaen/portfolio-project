@@ -445,6 +445,27 @@ body.section-show .transition-mask:before{
 	text-align:center;
 	margin-top:190px;
 }
+
+.front-heading-2{
+	text-align:center;
+}
+
+.front-heading-2 > h2{
+	font-size:40px;
+	font-weight:lighter;
+	letter-spacing:15px;
+	position:relative;
+	position:relative;
+	line-height:1em;
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	z-index:10;
+	color:#999;
+	font-family: 'Playfair Display', serif;
+	font-style:italic;
+}
+
 .front-heading > h2{
 	font-size:55px;
 	font-weight:lighter;
